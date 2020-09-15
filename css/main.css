@@ -3,9 +3,39 @@
     float: left;
     background-color: aquamarine ;
 }
-    .container {
-        
-    }
+    /* .container {
+     with:100%
+    
+    } visoms sections priskiriame*/
+
+/* .bg-blue{
+    background-color: #03a9f5;
+} kadangi pritaikome 2 sections, vienetinė, todėl galima rašyti į patį galą */ 
+
+/* rikiuojame klases pagal hierarchiją */
+/* bendrines klases rašyti viršuje, kad neoveridintų specifinių elementų */
+
+/* container{
+width:1000px
+padding: 60px 0
+} */
+
+/* left{
+    50%
+}
+
+.right{
+    40%
+}
+
+
+
+width:600px */
+
+
+
+.
+
     .container img {
 
     }
@@ -60,10 +90,10 @@
 footer {
 
 }
-    .icons {
+    .socials {
 
         }
-        .icons img {
+        .socials img {
 
         }
         .links {
