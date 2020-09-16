@@ -19,16 +19,18 @@
     text-align: center;
     padding: 20px 0px;
 }
-.container img {
+.hero img {
     height: 105px;
     padding: 35px;
+    object-fit: contain;
+    object-position: center;
 }
 .container h1 {
     font-size: 50px;
     text-transform: uppercase;
 }
 
-.p1 {
+.subtitle {
    padding: 12px 0;
    font-size: 18px;
    color: #a9b3bf;
