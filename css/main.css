@@ -1,6 +1,7 @@
 
 .bg-blue {
     background-color: #03a9f5;
+    width: 100%
 }
 .child {
     width: 100%;
@@ -13,10 +14,7 @@
   background-attachment: fixed;
 }
 
-.container {
-    width: 1000px;
-    margin-left: calc( (50% - 500px) );
-}
+
 
 .hero-row {
     width: 600px;
@@ -87,46 +85,27 @@ main {
 }
 
 footer {
-    width:100%;
-}
-.footer-texts{
    
 }
+
+.footer-texts{
+    text-align: center; 
+}
+
 .socials {
-    width: 1000px;
+    width:35%;
+    margin-left: calc( (50% - 35%) );;
+    display: flex;
+    justify-content: space-between;
+}
+.socials a {
+   color: white;
+ text-decoration: none;
 }
 .matrixlg {
  
 }
 .links {
     width: 600px;
-    margin-left: calc( (50% - 300px) );
+   
 }
-
-    /* .container {
-     with:100%
-    
-    } visoms sections priskiriame*/
-
-
-
-/* rikiuojame klases pagal hierarchiją */
-/* bendrines klases rašyti viršuje, kad neoveridintų specifinių elementų */
-
-/* container{
-width:1000px
-padding: 60px 0
-} */
-
-
-
-/* .bghero {
-    tam, kad klasė neoveridintų
-
-width:600px 
-
-html klasės turi būti rašomos istoriniu eilišku
-
-Nuotrauka bg naudojama visa
-
-*/ 
