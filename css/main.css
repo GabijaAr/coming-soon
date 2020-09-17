@@ -87,25 +87,68 @@ main {
 footer {
    
 }
-
+/* peršviečiamos nuorodos */
 .footer-texts{
-    text-align: center; 
+    text-align: center;
+    color: #fff8; 
 }
-
+.links > p > a{
+    color: white;
+    text-decoration:none;
+}
 .socials {
     width:35%;
-    margin-left: calc( (50% - 35%) );;
+    margin-left: calc( (50% - 17%) );;
+    margin-right: calc( (50% - 17%) );;
     display: flex;
     justify-content: space-between;
+
 }
+.texts {
+    border-top: 2px solid #fff8;
+}
+
+/* apvalios, uzvedus pele-kursorius virsuje (hoverio efektas)fonas baltas, ikona mėlyna.  */
+/* pakeisti width social pleciant teritorija kai mazeja rezoliucija.  */
 .socials a {
-   color: white;
+color: white;
  text-decoration: none;
+ border-radius: 50%;
+ width: 40px;
+ line-height:40px;
 }
+
+.socials a:hover {
+    background-color: white;
+    color: #03a9f5;
+}
+    
+
 .matrixlg {
  
 }
 .links {
     width: 600px;
-   
+
 }
+
+ /* !  pataisyti,  */
+.border {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #fff8;
+    border-top: none;
+    border-bottom: none;
+}
+
+/* 
+nebūtinai turi būti tiesioginis giminaitis, gali būti bet koks gylis
+.footer-texts a {
+
+}
+ */
+/* 
+footer.container.blue.container.footer {} 
+tik tas elementas, kuris turi visas šias sąvybes */
+
+/* margin lygiavimą dedame iš abiejų pusių, kad text-align neiškraipytų lygiuotės */

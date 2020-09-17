@@ -32,6 +32,10 @@
         width: 400px;
         margin-left: calc((100% - 400px) / 2);
     }
+    .links p {
+        width:100%;
+        border:none;
+    }
 }
 
 @media (max-width: 500px) {
