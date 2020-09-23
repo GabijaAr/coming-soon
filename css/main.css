@@ -1,104 +1,156 @@
-.hero {
-    width: 1000px;
-    float: left;
-    background-color: aquamarine ;
-}
-    /* .container {
-     with:100%
-    
-    } visoms sections priskiriame*/
 
-/* .bg-blue{
+.bg-blue {
     background-color: #03a9f5;
-} kadangi pritaikome 2 sections, vienetinė, todėl galima rašyti į patį galą */ 
-
-/* rikiuojame klases pagal hierarchiją */
-/* bendrines klases rašyti viršuje, kad neoveridintų specifinių elementų */
-
-/* container{
-width:1000px
-padding: 60px 0
-} */
-
-/* left{
-    50%
+    width: 100%
 }
-
-.right{
-    40%
+.child {
+    width: 100%;
+}
+.bcg-1 {
+    width: 100%;
+  background-image: url('../images/background-2.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
 }
 
 
 
-width:600px */
+.hero-row {
+    width: 600px;
+    height: 100vh;
+    margin-left: calc( (50% - 300px) );
+    text-align: center;
+    padding: 20px 0px;
+}
+.hero-row img {
+    height: 105px;
+    padding: 35px;
+    object-fit: contain;
+    object-position: center;
+}
+.hero-row h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
 
+.subtitle {
+   padding: 12px 0;
+   font-size: 18px;
+   color: #a9b3bf;
+}
+.clock {
+    padding: 50px 0px;
+    line-height: 50px;
+}
+.hero-row input {
+width: 90%;
+line-height: 30px;
+border:none;
+border-bottom: 2px solid white;
+background: none;
+}
+::placeholder {
+    color: white; 
+  }
 
+.hero-row button {
+   padding: 8px 20px;
+   margin: 30px 0px 0px;
+   color:white;
+   background-color: #ea1e63;
+   border: none;
+   text-transform: capitalize;
+   font-size: 15px;
+}
 
-.
-
-    .container img {
-
-    }
-    .container h1 {
-
-    }
-    .container p {
-
-    }
-    .clock {
-
-    }
-    .subscribe {
-
-    }
-    .subscribe input {
-
-    }
-    .subscribe button {
-
-    }
+main {
+    width: 100%;
+    height: 90vh;
+}
 .section {
-    background-color: darkkhaki;
-    }
-    .left {
+   
+}
 
-        }
-        .left h2 {
+.left {
+    background-color: lightgreen;
+    width:50%;
+    float:left;
+}
 
-        }
-        .left p {
-            
-        }
-    .right {
-        
-        }
-        .right h2 {
+.right {
+    background-color: darkolivegreen;
+    width: 40%;
+    float:right;
+    padding:30px 0px;
+}
 
-        }
-        .right p {
-
-        }
-        .right form {
-
-            }
-            .right input {
-
-            }
-            .right button {
-                
-            }
 footer {
+   height: 45vh;
+}
+/* peršviečiamos nuorodos */
+.footer-texts{
+    text-align: center;
+    color: #fff8; 
+}
+.links > p > a{
+    color: white;
+    text-decoration:none;
+}
+.socials {
+    width:35%;
+    margin-left: calc( (50% - 17%) );;
+    margin-right: calc( (50% - 17%) );;
+    display: flex;
+    justify-content: space-between;
 
 }
-    .socials {
+.texts {
+    border-top: 2px solid #fff8;
+}
 
-        }
-        .socials img {
+/* apvalios, uzvedus pele-kursorius virsuje (hoverio efektas)fonas baltas, ikona mėlyna.  */
+/* pakeisti width social pleciant teritorija kai mazeja rezoliucija.  */
+.socials a {
+color: white;
+ text-decoration: none;
+ border-radius: 50%;
+ width: 40px;
+ line-height:40px;
+}
 
-        }
-        .links {
+.socials a:hover {
+    background-color: white;
+    color: #03a9f5;
+}
+    
 
-        }
-        .link p {
+.matrixlg {
+ 
+}
+.links {
+    width: 600px;
 
-        }
+}
+
+ /* !  pataisyti,  */
+.border {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #fff8;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+/* 
+nebūtinai turi būti tiesioginis giminaitis, gali būti bet koks gylis
+.footer-texts a {
+
+}
+ */
+/* 
+footer.container.blue.container.footer {} 
+tik tas elementas, kuris turi visas šias sąvybes */
+
+/* margin lygiavimą dedame iš abiejų pusių, kad text-align neiškraipytų lygiuotės */
