@@ -1,0 +1,75 @@
+
+.progress-bar {
+background-color:burlywood;
+border-bottom: 3px solid grey;
+width:100%;
+position: relative;
+line-height: 40px;
+margin-bottom: 20px;
+}
+
+.current {
+    width:82%;
+    border-bottom: 3px solid blue;  
+    position: absolute;
+    bottom: -3px;
+    left:0;
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.26, 0.59, 1, 1);
+}
+
+.progress-label {
+    float:left;
+   
+}
+
+.value {
+    float:right;
+}
+
+
+    @keyframes loading {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 82%;
+        }
+    }
+
+
+
+
+/* .progress-bar top {
+    
+} 
+
+top .value {
+
+}
+
+bottom {
+
+}
+
+bottom .progress-bar {
+
+}
+
+melynas - nurodomas aukstis 100%
+
+pagr stilius
+ir papildomas stilius  progress .progress-bar
+
+turinio atnaujinimas:
+- uzdeti style su plociu i html
+greitam pakeitimui. 
+
+/* animavimas  */
+/* 1.kas animuojasi
+2.kaip animuojasi
+3.per kiek laiko animuojasi
+
+pridedame i htlm .progress-bar dar viena vaikini elementa kuris uzisikraus animacijoje 100procentu;; nuo 0-100procentu
+( bar ) */ 

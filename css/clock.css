@@ -1,0 +1,51 @@
+
+.clock {
+    width:90%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.clock-block {
+    display
+}
+
+.numbers{
+width:50%;
+}
+.words{
+width:50%;
+}
+
+/* 
+.clock {
+    display: inline-block;
+    width:100%;
+}
+
+.clock > .time {
+display: 
+float
+width:25%
+;
+}
+
+.clock > .time > .value {
+display:
+width:100%
+}
+
+.clock > .time > .label {
+
+}
+display:
+
+responsive:
+ media (max-width 700)
+ .time
+ width: 50%
+
+ responsive:
+ media (max-width 500)
+ .time
+ width: 100%
+ */ */ */

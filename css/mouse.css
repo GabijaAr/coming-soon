@@ -1,0 +1,92 @@
+
+
+
+
+.mouse {
+   160px; 
+   height:260px;
+   border: 15 solid white;
+   border-radius:80px;
+/* padding-top: 40px; */
+position:ralative
+}
+
+.wheel{
+    width
+    height: display: inline-block;
+    float: left;
+    width: 100%;
+    background-color;
+    border-radius:8px;
+
+    /* iscentravimui */
+    position:absolite
+top: 40px
+left:50%
+transform: translate (-50%, 0);
+   
+animation-name:scrolling;
+animation-duration: 2s;
+animation-fill-mode: forward (kuo baige tuo ir pasiliko)
+animation-timing-function: ease-in (leta pradzia ir pagreiteja)-pridedama kiekvienam laiko intervalui atskirai
+eas-in-out
+patikrinti inspect, galima naudoti kreive sukurimui greicio (pasirenkame koordinates)
+(sukurtas skirtingas laiko tek4jimas, paspaudus inspect ant ikonos)
+animation-interation-count: 3 (kiek kartu prasisuks)
+infinitive -amzinai sukasi
+animation-direction: 
+reverse- nuo galo i prieki ir atgal
+
+delay-uzvelinimas
+
+
+background-img (peles img)
+size: contain
+}
+
+/* animacijos kurimas */
+
+@keyframes scrolling {
+from 0% {
+background-color:white
+top:40px
+transform:rotate (o deg)
+
+}
+
+
+50% {
+    background-color: chartreuse;
+    top:140px
+    transform:rotate (720 deg)
+}
+to 100%{
+background-color:red;
+
+};
+}
+:hover
+animation-play-state: paused (sustabdo)
+
+
+transform:rotate (720 deg)  translate (-50%, 0); -rasyti kartu, kad neoveridintu
+
+
+
+sukuriamas nematomumas
+bg-color: rgb (255 255 255 1)
+
+
+bg-color: transperent
+
+baigtiniu reiksmiu animuoti negalime
+laike visability:
+visability :none
+
+skaicius galima animuori
+persvieciamumzs
+opacity:1
+opacity:0
+
+
+

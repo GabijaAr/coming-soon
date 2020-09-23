@@ -66,6 +66,7 @@ background: none;
 
 main {
     width: 100%;
+    height: 90vh;
 }
 .section {
    
@@ -85,7 +86,7 @@ main {
 }
 
 footer {
-   
+   height: 45vh;
 }
 /* peršviečiamos nuorodos */
 .footer-texts{
@@ -140,6 +141,7 @@ color: white;
     border-top: none;
     border-bottom: none;
 }
+
 
 /* 
 nebūtinai turi būti tiesioginis giminaitis, gali būti bet koks gylis
